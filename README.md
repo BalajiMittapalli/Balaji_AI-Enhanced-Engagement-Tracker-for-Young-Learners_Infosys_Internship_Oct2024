@@ -130,6 +130,115 @@ Enables batch processing by allowing automated access to multiple videos.
 
 Facilitates easy retrieval and organization of video datasets or archived footage.
 
+![image](https://github.com/user-attachments/assets/75329b06-361a-453f-a833-f2373d9736d8)
+
+__B. vid_fps__
+
+Controls the playback speed and smoothness of video.
+
+Allows adjustment of video speed, such as slow-motion or time-lapse effects.
+
+Essential for synchronization with audio and meeting playback standards.
+
+__Output Screenshot:__
+
+![Screenshot 2024-11-18 205807](https://github.com/user-attachments/assets/af752974-9176-4451-be8c-ed1b8028e893)
+
+__C. vid_save__
+
+Saves the processed video in a specified format (e.g., MP4, AVI).
+
+Allows configuration of compression and resolution for quality and compatibility.
+
+Supports adding metadata like timestamps or annotations for better tracking.
+
+__Output Screenshot:__
+
+![image](https://github.com/user-attachments/assets/7eea1d22-0acf-4466-8973-00f85cc0fb82)
+
+__D. vid_stack__
+
+Combines multiple frames side-by-side or sequentially for analysis.
+
+Useful for visual comparisons, like original vs. processed frames.
+
+Supports temporal visualization, aiding in monitoring changes over time.
+
+__E. vid_stream__
+
+Captures live video from sources like webcams, IP cameras, or online streams.
+
+Ideal for real-time applications like surveillance or live broadcasting.
+
+Enables integration with processing features like motion detection or object tracking.
+
+__ANNOTATIONS__
+
+Annotations in the context of data science, machine learning, and image/video processing refer to the process of adding descriptive or metadata labels to data. These labels provide additional context or information that helps in training algorithms, understanding data, or facilitating analysis. Annotations are particularly important in supervised learning, where models are trained using labeled data.
+
+__Libraries or Frame works used - opencv, labelimg__
+
+__Version - 4.10.0.84 , version of labelImg - 1.8.6__
+
+__Developed Logics -__ 
+
+__A. Data Segregate__
+
+Splits data into different categories or sets for analysis based on certain criteria or characteristics.
+
+Helps in organizing data into groups, making it easier to process, analyze, and draw meaningful conclusions.
+
+Commonly used in machine learning to separate training, validation, and test datasets, or to organize data based on features like class labels, demographics, or time periods.
+
+__Output Screenshot:__
+
+![segregate](https://github.com/user-attachments/assets/83c42d3b-9bff-40e1-b81f-184e7062ef3a)
+
+__B. label__
+
+Directory and File Handling:The code iterates through the label files in the specified label_dir and checks for corresponding images in image_dir. If the output directory does not exist, it creates it to save processed images with bounding boxes.
+
+Bounding Box Drawing:For each label file, the code reads bounding box information (class ID, x and y center, width, height), calculates the bounding box coordinates, and draws a green rectangle on the image to represent the bounding box.
+
+Output Image Saving:Each processed image with bounding boxes is saved to output_dir, and a confirmation message is printed for each successfully processed file.
+
+__Output Screenshot:__
+
+![gun](https://github.com/user-attachments/assets/ba82450b-0a5d-41dc-8fca-5c72459241a8)
+
+__C. Label Manipulate__
+
+Modifies or adjusts labels to refine data categories or correct labeling errors.
+
+Can be used to handle mislabeled data or to reassign labels to reflect more accurate or refined categories, such as updating class labels based on new insights or correcting annotation mistakes.
+
+Often used during data cleaning and preprocessing phases to improve the quality of the dataset and ensure the accuracy of the model being trained.
+
+__Output Screenshot:__
+
+![image](https://github.com/user-attachments/assets/faa4ec7b-0187-4dda-a155-a177c9c1ceb2)
+
+__Face_Recognition__
+
+Face recognition is a biometric technology used to identify or verify individuals by analyzing their facial features. It involves capturing and analyzing facial patterns from an image or video and comparing them to a database of known faces to find a match. Face recognition can be used for both identification (determining who someone is) and verification (confirming someone’s identity).
+
+__Libraries or Frameworks used-__
+
+opencv-python ==4.10.0.84
+face_recognition == 1.3.0
+dlib == 19.24.6
+pandas == 2.2.3
+numpy == 2.1.2
+datetime == 5.5
+imutils == 0.5.4
+
+__Developed Logics -__
+
+
+
+
+
+
 
 
 
